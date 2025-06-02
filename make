@@ -1,5 +1,5 @@
 #!/bin/bash
 
-
-sudo cp -rf eggs /usr/share/icons
-sudo cp -rf eggs /etc/skel/.icons
+BPACK=$(pwd)
+sudo cp -rf $BPACK/eggs /usr/share/icons
+sudo cp -rf $BPACK/eggs /etc/skel/.icons
