@@ -9,6 +9,7 @@ if [[ ! -d /etc/skel/.icons ]];then
     mkdir /etc/skel/.icons
 fi
 
+
 sudo cp -rf /opt/cache/eggs/pkg.tar.xz /usr/share/icons/
 sudo cp -rf /opt/cache/eggs/pkg.tar.xz /etc/skel/.icons/
 
